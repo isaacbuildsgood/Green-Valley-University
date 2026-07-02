@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Green Valley University - Biology Courses</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="nav-container">
+      <div class="logo">Green Valley University</div>
+      <ul class="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="faculties.html">Faculties</a></li>
+        <li><a href="admissions.html">Admissions</a></li>
+        <li><a href="news.html">News & Events</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>All Courses - Department of Biology</h1>
+        <p>Filter by degree level to find the right program.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="filters" role="toolbar" aria-label="Course filters">
+          <button type="button" class="filter-btn active" data-filter="all" aria-pressed="true">All</button>
+          <button type="button" class="filter-btn" data-filter="undergraduate" aria-pressed="false">Undergraduate</button>
+          <button type="button" class="filter-btn" data-filter="postgraduate" aria-pressed="false">Postgraduate</button>
+          <button type="button" class="filter-btn" data-filter="phd" aria-pressed="false">PhD</button>
+        </div>
+
+        <div class="courses-grid course-list" style="margin-top:24px;">
+          <div class="course-card" data-level="ba">
+            <h3>Bachelor of Arts in Biology</h3>
+            <p class="degree">Undergraduate</p>
+            <p class="duration">4 Years</p>
+            <p>Biology explores living systems from molecules to ecosystems, combining laboratory work with field studies and research opportunities.</p>
+            <a href="ba-biology.html" class="btn">View Course</a>
+          </div>
+
+          <div class="course-card" data-level="ma">
+            <h3>Master of Arts in Biology</h3>
+            <p class="degree">Graduate</p>
+            <p class="duration">2 Years</p>
+            <p>Biology explores living systems from molecules to ecosystems, combining laboratory work with field studies and research opportunities.</p>
+            <a href="ma-biology.html" class="btn">View Course</a>
+          </div>
+
+          <div class="course-card" data-level="phd">
+            <h3>PhD in Biology</h3>
+            <p class="degree">Doctoral</p>
+            <p class="duration">3-5 Years</p>
+            <p>Biology explores living systems from molecules to ecosystems, combining laboratory work with field studies and research opportunities.</p>
+            <a href="phd-biology.html" class="btn">View Course</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Contact Us</h3>
+        <p>123 University Drive<br>Green Valley, GV 12345</p>
+        <p>Phone: (123) 456-7890</p>
+        <p>Email: info@gvuniversity.edu</p>
+      </div>
+    </div>
+    <p>&copy; 2026 Green Valley University. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
